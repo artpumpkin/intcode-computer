@@ -1,0 +1,14 @@
+{
+  "name": "intcode-computer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A dependency-free, resumable Intcode interpreter derived from my 2019 solutions.",
+  "license": "MIT",
+  "engines": { "node": ">=24" },
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check src/computer.js && node --check src/cli.js && node --test",
+    "demo": "node src/cli.js examples/double.csv 21"
+  }
+}
